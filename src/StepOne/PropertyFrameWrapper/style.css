@@ -1,0 +1,48 @@
+.property-frame-wrapper {
+    all: unset;
+    align-items: flex-start;
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 10px;
+    padding: 16px 36px;
+    position: relative;
+  }
+  
+  .property-frame-wrapper .vuesax-linear-arrow {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .property-frame-wrapper .div {
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .property-frame-wrapper.frame-1871 {
+    background-color: #f2f2f2;
+    border: 2px solid;
+    border-color: #41759a;
+  }
+  
+  .property-frame-wrapper.frame-1870 {
+    background-color: #41759a;
+  }
+  
+  .property-frame-wrapper.frame-1871 .div {
+    color: #41759a;
+    margin-top: -2px;
+  }
+  
+  .property-frame-wrapper.frame-1870 .div {
+    color: #f2f2f2;
+    margin-top: -1px;
+  }
+  
