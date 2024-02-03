@@ -1,0 +1,237 @@
+.homepage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .homepage .overlap-wrapper {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .homepage .overlap {
+    height: 100%;
+    position: relative;
+  }
+  
+  .homepage .frame {
+    background-color: #f2f2f2;
+    background-image: url('data:image/svg+xml,background-image: url(./frame-1.svg);');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1080px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .homepage .overlap-group {
+    height: 1080px;
+    left: -197px;
+    position: relative;
+    top: -408px;
+    width: 2203px;
+  }
+  
+  .homepage .ellipse {
+    background: linear-gradient(180deg, rgb(114, 103, 186) 0%, rgb(154, 204, 240) 100%);
+    border-radius: 386.97px;
+    filter: blur(100px);
+    height: 774px;
+    left: 1317px;
+    position: absolute;
+    top: 917px;
+    transform: rotate(-159.07deg);
+    width: 774px;
+  }
+  
+  .homepage .div {
+    background: linear-gradient(180deg, rgb(66, 117, 154) 0%, rgb(154, 204, 240) 100%);
+    border-radius: 311.6px;
+    filter: blur(100px);
+    height: 623px;
+    left: 55px;
+    position: absolute;
+    top: 55px;
+    transform: rotate(101.38deg);
+    width: 623px;
+  }
+  
+  .homepage .ellipse-2 {
+    background: linear-gradient(180deg, rgb(181, 238, 217) 0%, rgb(154, 204, 240) 100%);
+    border-radius: 123.57px;
+    filter: blur(100px);
+    height: 247px;
+    left: 802px;
+    position: absolute;
+    top: 971px;
+    transform: rotate(101.38deg);
+    width: 247px;
+  }
+  
+  .homepage .ellipse-3 {
+    background: linear-gradient(180deg, rgb(114, 103, 186) 0%, rgb(243, 243, 243) 100%);
+    border-radius: 223px;
+    filter: blur(100px);
+    height: 446px;
+    left: 1548px;
+    position: absolute;
+    top: 300px;
+    transform: rotate(-86.98deg);
+    width: 446px;
+  }
+  
+  .homepage .ellipse-4 {
+    background: linear-gradient(180deg, rgb(114, 103, 186) 0%, rgb(243, 243, 243) 100%);
+    border-radius: 119.51px;
+    filter: blur(100px);
+    height: 239px;
+    left: 302px;
+    position: absolute;
+    top: 589px;
+    transform: rotate(-169.29deg);
+    width: 239px;
+  }
+  
+  .homepage .ellipse-5 {
+    background: linear-gradient(180deg, rgb(181, 238, 217) 0%, rgb(243, 243, 243) 44.18%);
+    border-radius: 144.07px;
+    filter: blur(100px);
+    height: 288px;
+    left: 1495px;
+    position: absolute;
+    top: 845px;
+    transform: rotate(-41.87deg);
+    width: 288px;
+  }
+  
+  .homepage .ellipse-6 {
+    background: linear-gradient(180deg, rgb(181, 238, 217) 0%, rgb(154, 204, 240) 50.52%);
+    border-radius: 239.61px;
+    filter: blur(100px);
+    height: 479px;
+    left: 127px;
+    position: absolute;
+    top: 1111px;
+    transform: rotate(-28.27deg);
+    width: 479px;
+  }
+  
+  .homepage .ellipse-7 {
+    background: linear-gradient(180deg, rgb(114, 103, 186) 0%, rgb(154, 204, 240) 100%);
+    border-radius: 128.5px;
+    filter: blur(100px);
+    height: 257px;
+    left: 110px;
+    position: absolute;
+    top: 907px;
+    width: 257px;
+  }
+  
+  .homepage .container {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 100px;
+    left: 688px;
+    position: absolute;
+    top: 371px;
+  }
+  
+  .homepage .container-text {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .homepage .h1 {
+    color: #131313;
+    font-family: "Playfair Display";
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .homepage .h2 {
+    color: #131313;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .homepage .container-button {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+
+  .homepage .button1 {
+    all: unset;
+    align-items: center;
+    background-color: #7267ba;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #f2f2f2;
+    display: inline-flex;
+    font: 400 24px "Inter";
+    gap: 10px;
+    justify-content: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    padding: 20px 36px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .homepage .button1:hover {
+    background-color: #f2f2f2;
+    color:#7267ba;
+    border: 2px solid;
+    border-color: #7267ba;
+  }
+  
+  .homepage .button2 {
+    all: unset;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #7267ba;
+    display: inline-flex;
+    font: 400 24px "Inter";
+    gap: 10px;
+    justify-content: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    padding: 20px 36px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .homepage .button2:hover {
+    background-color: #7267ba;
+    border: 2px solid;
+    border-color: #f2f2f2;
+    color:#f2f2f2;
+  }
