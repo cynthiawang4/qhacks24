@@ -33,14 +33,14 @@ function Login() {
                             <input className="input-box" type="text" name="password"></input>
                         </form>
                         <div className="login-button">
-                            <Link to="/stepacronym">
+                            <Link to="/choose">
                                 <button className="button1">Sign In</button>
                             </Link>
                             <button className="button2">Sign Up</button>
                         </div>
                     </div>
                     <div className="homepage-button">
-                        <Link to="/stepone">
+                        <Link to="/">
                             <button className="button3">Back to homepage</button>
                         </Link>
                     </div>
