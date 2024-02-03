@@ -1,0 +1,276 @@
+.index {
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .div {
+    background-color: #fcfcfc;
+    height: 1117px;
+    position: relative;
+    width: 1728px;
+  }
+  
+  .index .component {
+    height: 163px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1728px;
+  }
+  
+  .index .overlap-group-2 {
+    height: 163px;
+    position: relative;
+  }
+  
+  .index .rectangle {
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 0px 11px 5px #00000026;
+    height: 163px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 1728px;
+  }
+  
+  .index .frame {
+    align-items: center;
+    display: flex;
+    gap: 23px;
+    left: 74px;
+    position: absolute;
+    top: 35px;
+    width: 1581px;
+  }
+  
+  .index .step-text-horizontal-instance {
+    flex: 0 0 auto !important;
+    gap: 29.04px !important;
+  }
+  
+  .index .design-component-instance-node {
+    color: rgba(19, 19, 19, 1) !important;
+    font-size: 37.8px !important;
+    left: 19px !important;
+    top: 12px !important;
+  }
+  
+  .index .design-component-instance-node-2 {
+    height: 92.94px !important;
+    position: relative !important;
+    width: 92.94px !important;
+  }
+  
+  .index .design-component-instance-node-3 {
+    background-color: rgba(253, 253, 253, 1) !important;
+    border: 5.81px solid !important;
+    border-color: rgba(114, 103, 186, 1) !important;
+    border-radius: 46.47px !important;
+    height: 93px !important;
+    width: 93px !important;
+  }
+  
+  .index .rect {
+    background-color: rgba(114, 103, 186, 1);
+    height: 6px;
+    position: relative;
+    width: 606px;
+  }
+  
+  .index .step-symbol-2 {
+    color: rgba(19, 19, 19, 1) !important;
+    font-size: 37.8px !important;
+    left: 16px !important;
+    top: 12px !important;
+  }
+  
+  .index .step-symbol-3 {
+    height: 93px !important;
+    left: 1488px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 93px !important;
+  }
+  
+  .index .step-symbol-4 {
+    background-color: rgba(253, 253, 253, 1) !important;
+    border: 5.81px solid !important;
+    border-color: rgba(114, 103, 186, 1) !important;
+    border-radius: 46.47px !important;
+    height: 93px !important;
+  }
+  
+  .index .overlap-2 {
+    height: 790px;
+    left: 74px;
+    position: absolute;
+    top: 226px;
+    width: 736px;
+  }
+  
+  .index .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 36px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .index .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 54px;
+    height: 685px;
+    position: relative;
+  }
+  
+  .index .div-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+  }
+  
+  .index .text-wrapper-2 {
+    color: rgba(19, 19, 19, 1);
+    font-family: "Playfair Display", Helvetica;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .index .ellipse-3 {
+    background-color: #7267ba;
+    border-radius: 30px;
+    height: 60px;
+    left: 1038px;
+    position: absolute;
+    top: 736px;
+    width: 60px;
+  }
+  
+  .index .refresh-2 {
+    left: 1045px !important;
+    position: absolute !important;
+    top: 744px !important;
+  }
+  
+  .index .button-v-1 {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 353px !important;
+  }
+  
+  .index .p {
+    color: rgba(19, 19, 19, 1);
+    font-family: "Inter", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    left: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 171px;
+  }
+  
+  .index .overlap-3 {
+    background-color: #f2f2f2;
+    height: 946px;
+    left: 1248px;
+    position: absolute;
+    top: 171px;
+    width: 480px;
+  }
+  
+  .index .text-wrapper-3 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    left: 57px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 71px;
+  }
+  
+  .index .text-wrapper-4 {
+    color: #1e1e1e;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    left: 59px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 171px;
+  }
+  
+  .index .rectangle-2 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    height: 186px;
+    left: 57px;
+    position: absolute;
+    top: 211px;
+    width: 370px;
+  }
+  
+  .index .text-wrapper-5 {
+    color: #1e1e1e;
+    font-family: "Playfair Display", Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    left: 59px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 447px;
+  }
+  
+  .index .rectangle-3 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    height: 186px;
+    left: 59px;
+    position: absolute;
+    top: 494px;
+    width: 370px;
+  }
+  
+  .index .line {
+    height: 5px;
+    left: 59px;
+    position: absolute;
+    top: 128px;
+    width: 364px;
+  }
+  
+  .index .question-instance {
+    left: 231px !important;
+    top: 454px !important;
+  }
+  
+  .index .button-v-instance {
+    display: flex !important;
+    left: 71px !important;
+    position: absolute !important;
+    top: 778px !important;
+    width: 353px !important;
+  }
+  
