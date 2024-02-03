@@ -1,0 +1,102 @@
+.step-symbol {
+    height: 32px;
+    width: 32px;
+  }
+  
+  .step-symbol .number {
+    background-color: var(--light);
+    border: 2px solid;
+    border-radius: 16px;
+    height: 32px;
+    overflow: hidden;
+  }
+  
+  .step-symbol .class {
+    height: 24px !important;
+    left: 2px !important;
+    position: absolute !important;
+    top: 1px !important;
+    width: 24px !important;
+  }
+  
+  .step-symbol .class-2 {
+    height: 24px !important;
+    left: 2px !important;
+    position: absolute !important;
+    top: 2px !important;
+    width: 24px !important;
+  }
+  
+  .step-symbol .type-checked-state {
+    height: 32px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 32px !important;
+  }
+  
+  .step-symbol .active {
+    border-color: var(--active);
+  }
+  
+  .step-symbol .numbered {
+    position: relative;
+  }
+  
+  .step-symbol .default {
+    border-color: var(--default);
+  }
+  
+  .step-symbol .icon {
+    position: relative;
+  }
+  
+  .step-symbol .number.bullet .element {
+    border-radius: 5.5px;
+    height: 11px;
+    left: 8px;
+    position: relative;
+    top: 8px;
+    width: 11px;
+  }
+  
+  .step-symbol .number.numbered .element {
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+  }
+  
+  .step-symbol .number.checked .element {
+    left: 7px;
+    position: absolute;
+    top: 4px;
+  }
+  
+  .step-symbol .number.icon .element {
+    left: 7px;
+    position: absolute;
+    top: 4px;
+  }
+  
+  .step-symbol .number.numbered.default .element {
+    color: var(--dark);
+  }
+  
+  .step-symbol .number.bullet.default .element {
+    background-color: var(--dark);
+  }
+  
+  .step-symbol .number.bullet.active .element {
+    background-color: var(--active);
+  }
+  
+  .step-symbol .number.numbered.active .element {
+    color: var(--active);
+  }
+  
