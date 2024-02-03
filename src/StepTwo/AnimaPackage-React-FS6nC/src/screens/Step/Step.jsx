@@ -4,6 +4,7 @@ import { ButtonV } from "../../components/ButtonV";
 import { StepSymbol } from "../../components/StepSymbol";
 import { StepTextHorizontal } from "../../components/StepTextHorizontal";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const Prompt = () => {
   const [prompt, setPrompt] = useState('');
@@ -58,7 +59,9 @@ export const Prompt = () => {
           </div>
           <div className="frame-5">
             <ButtonV className="button-v-1" text="Back" />
-            <ButtonV className="button-v-1" text="Next" />
+            <Link to="/results">
+                <ButtonV className="button-v-1" text="Next" />
+            </Link>
           </div>
         </div>
       </div>

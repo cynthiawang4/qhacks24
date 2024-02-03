@@ -1,17 +1,16 @@
 import React from "react";
 import Home from "./Home/Home";
-import Login from "./Login/Login";
-import SignUp from "./SignUp/SignUp";
-import StepOne, { StepAcronym } from "./StepOne/screens/StepAcronym";
 
 import About from "./Home/About/About";
 import How from "./Home/How/How";
 import Login from "./Home/Login/Login";
 import SignUp from "./Home/SignUp/SignUp";
+
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Prompt } from "./StepTwo/AnimaPackage-React-FS6nC/src/screens/Step/Step";
 import { Step3 } from "./Step3/Step3";
+import { StepAcronym } from "./StepOne/screens/StepAcronym";
 
 function App() {
   return (

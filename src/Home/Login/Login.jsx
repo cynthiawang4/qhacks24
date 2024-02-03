@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Home.css"
 import "./Login.css";
-import "../StepOne/screens/StepAcronym";
+import "../../StepOne/screens/StepAcronym";
 
 function Login() {
     return (

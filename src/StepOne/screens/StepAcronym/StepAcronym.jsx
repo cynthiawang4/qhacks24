@@ -6,6 +6,7 @@ import { Select } from "../../Select";
 import { StepSymbol } from "../../StepSymbol";
 import { StepTextHorizontal } from "../../StepTextHorizontal";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const StepAcronym = () => {
   return (
@@ -43,7 +44,9 @@ export const StepAcronym = () => {
                 </div>
               </div>
             </div>
-            <ButtonV className="button-v-1" text="Next" />
+            <Link to="/prompt">
+                <ButtonV className="button-v-1" text="Next" />
+            </Link>
           </div>
         </div>
         <div className="component">
