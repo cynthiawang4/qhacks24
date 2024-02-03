@@ -7,6 +7,7 @@ import "./style.css";
 
 export const Prompt = () => {
   const [prompt, setPrompt] = useState('');
+
   return (
     <div className="step">
       <div className="div">
@@ -57,8 +58,10 @@ export const Prompt = () => {
             </div>
           </div>
           <div className="frame-5">
-            <ButtonV className="button-v-1" text="Back" />
-            <ButtonV className="button-v-1" text="Next" />
+            <ButtonV className="button-v-1" text="Back" pathname = "/"/>
+            {prompt? <ButtonV className="button-v-1" text="Next" pathname= "/results" data={prompt}/>:
+            <></>}
+            
           </div>
         </div>
       </div>
