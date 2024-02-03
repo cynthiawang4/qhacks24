@@ -1,0 +1,73 @@
+.refresh {
+    height: 44px;
+    position: relative;
+    width: 45px;
+  }
+  
+  .refresh .overlap {
+    height: 40px;
+    left: 9px;
+    position: relative;
+    top: 2px;
+    width: 26px;
+  }
+  
+  .refresh .group {
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 26px;
+  }
+  
+  .refresh .overlap-group {
+    height: 28px;
+    left: 8px;
+    position: relative;
+    top: 6px;
+    width: 19px;
+  }
+  
+  .refresh .vector {
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    width: 9px;
+  }
+  
+  .refresh .ellipse {
+    height: 21px;
+    left: 4px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+  }
+  
+  .refresh .overlap-wrapper {
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 26px;
+  }
+  
+  .refresh .img {
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    transform: rotate(-180deg);
+    width: 9px;
+  }
+  
+  .refresh .ellipse-2 {
+    height: 21px;
+    left: 4px;
+    position: absolute;
+    top: 0;
+    transform: rotate(-180deg);
+    width: 15px;
+  }
+  
