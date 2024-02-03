@@ -1,5 +1,9 @@
 import React from "react";
 import Home from "./Home/Home";
+import Login from "./Login/Login";
+import SignUp from "./SignUp/SignUp";
+import StepOne, { StepAcronym } from "./StepOne/screens/StepAcronym";
+
 import About from "./Home/About/About";
 import How from "./Home/How/How";
 import Login from "./Home/Login/Login";
@@ -18,6 +22,7 @@ function App() {
         <Route path="/howitworks" element={<How/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<SignUp/>} />
+        <Route path="/stepacronym" element={<StepAcronym/>} />
         <Route path="/prompt" element={<Prompt/>} />
         <Route path="/results" element={<Step3/>} />
       </Routes>

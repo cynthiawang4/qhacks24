@@ -35,7 +35,9 @@ function SignUp() {
                             <input className="input-box" type="text" name="password"></input>
                         </form>
                         <div className="login-button">
-                            <button className="button1">Sign In</button>
+                            <Link to="/stepacronym">
+                                <button className="button1">Sign In</button>
+                            </Link>
                             <button className="button2">Sign Up</button>
                         </div>
                     </div>
