@@ -1,0 +1,36 @@
+.button-v {
+  all: unset;
+  align-items: center;
+  background-color: #7267ba;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px #00000040;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px 36px;
+  position: relative;
+}
+
+.button-v .button {
+  color: #f2f2f2;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.button-v:hover {
+  background-color: #f2f2f2;
+  border: 2px solid;
+  border-color: #7267ba;
+}
+
+.button-v:hover .button {
+  color: #7267ba;
+  margin-top: -2px;
+}

@@ -1,0 +1,97 @@
+.homepage .container-about {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 88px;
+    left: 115px;
+    position: absolute;
+    right: 115px;
+    top: 229px;
+}
+  
+.homepage .about-text {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+}
+  
+.homepage .about-h1 {
+    color: #f3f3f3;
+    font: 400 64px "Playfair Display";
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1;
+    position: relative;
+    width: fit-content;
+}
+  
+.homepage .about-h2 {
+    color: #f3f3f3;
+    font: 400 32px "Inter";
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-wrap: wrap;
+    width: fit-content;
+}
+  
+.homepage .container-person {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 120px;
+    position: relative;
+}
+
+.homepage .person {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+}
+  
+.homepage .photo {
+    background-color: #f3f3f3;
+    border-radius: 125.5px;
+    height: 251px;
+    position: relative;
+    width: 251px;
+}
+  
+.homepage .photo-text {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+  
+.homepage .about-h3 {
+    background: linear-gradient(90deg, #B5EED9 0%, #9ACCF0 100%);
+    background-clip: text;
+    font: 600 32px "Inter";
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.homepage .about-h4 {
+    color: #f3f3f3;
+    font: 400 20px "Inter";
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
