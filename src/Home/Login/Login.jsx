@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Home.css"
 import "./Login.css";
+import "../../StepOne/screens/StepAcronym";
 
 function Login() {
     return (
@@ -32,7 +33,9 @@ function Login() {
                             <input className="input-box" type="text" name="password"></input>
                         </form>
                         <div className="login-button">
-                            <button className="button1">Sign In</button>
+                            <Link to="/choose">
+                                <button className="button1">Sign In</button>
+                            </Link>
                             <button className="button2">Sign Up</button>
                         </div>
                     </div>

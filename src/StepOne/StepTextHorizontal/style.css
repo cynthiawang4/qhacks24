@@ -1,0 +1,57 @@
+.step-text-horizontal {
+    position: relative;
+  }
+  
+  .step-text-horizontal .step-symbol-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .step-text-horizontal .class-3 {
+    height: 32px !important;
+    position: relative !important;
+    width: 32px !important;
+  }
+  
+  .step-text-horizontal .class-4 {
+    height: 32px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 32px !important;
+  }
+  
+  .step-text-horizontal .text-wrapper {
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+  }
+  
+  .step-text-horizontal.leading-text-false {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .step-text-horizontal.leading-text-true {
+    height: 58px;
+    width: 32px;
+  }
+  
+  .step-text-horizontal .state-0-active {
+    color: var(--active);
+    font-weight: 700;
+  }
+  
+  .step-text-horizontal .state-0-default {
+    color: var(--text-color);
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,357 @@
+.step-acronym {
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .step-acronym .div-2 {
+    background-color: #fcfcfc;
+    height: 1117px;
+    position: relative;
+    width: 1728px;
+  }
+  
+  .step-acronym .overlap {
+    background-color: var(--white);
+    border-radius: 16px;
+    height: 785px;
+    left: 986px;
+    position: absolute;
+    top: 226px;
+    width: 668px;
+  }
+  
+  .step-acronym .frame {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 64px;
+    left: 66px;
+    position: relative;
+    top: 48px;
+  }
+  
+  .step-acronym .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 54px;
+    height: 556px;
+    position: relative;
+  }
+  
+  .step-acronym .text-wrapper-2 {
+    color: var(--black);
+    font-family: "Inter", Helvetica;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .step-acronym .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 64px;
+    position: relative;
+  }
+  
+  .step-acronym .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .step-acronym .text-wrapper-3 {
+    color: var(--black);
+    font-family: "Inter", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .step-acronym .frame-5 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .step-acronym .group {
+    background-color: var(--grey);
+    border-radius: 20px;
+    height: 20px;
+    position: relative;
+    width: 403px;
+  }
+  
+  .step-acronym .control {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 20px;
+    display: flex;
+    gap: 240px;
+    height: 20px;
+    position: relative;
+    width: 254px;
+  }
+  
+  .step-acronym .bounds {
+    align-self: stretch;
+    position: relative;
+    width: 1px;
+  }
+  
+  .step-acronym .dragger {
+    align-self: stretch;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-right: -7px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .step-acronym .text-wrapper-4 {
+    color: var(--grey);
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .step-acronym .frame-6 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .step-acronym .select-instance {
+    position: relative !important;
+  }
+  
+  .step-acronym .p {
+    color: var(--black);
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .step-acronym .button-v-1 {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 353px !important;
+  }
+  
+  .step-acronym .component {
+    height: 163px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1728px;
+  }
+  
+  .step-acronym .overlap-group {
+    height: 163px;
+    position: relative;
+  }
+  
+  .step-acronym .rectangle {
+    background-color: var(--white);
+    box-shadow: 0px 11px 5px #00000026;
+    height: 163px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 1728px;
+  }
+  
+  .step-acronym .frame-7 {
+    align-items: center;
+    display: flex;
+    gap: 23px;
+    left: 74px;
+    position: absolute;
+    top: 35px;
+    width: 1581px;
+  }
+  
+  .step-acronym .step-text-horizontal-instance {
+    flex: 0 0 auto !important;
+    gap: 29.04px !important;
+  }
+  
+  .step-acronym .design-component-instance-node {
+    background-color: var(--variable-collection-pure-white) !important;
+    border: 5.81px solid !important;
+    border-color: var(--purple) !important;
+    border-radius: 46.47px !important;
+    height: 93px !important;
+    width: 93px !important;
+  }
+  
+  .step-acronym .design-component-instance-node-2 {
+    height: 92.94px !important;
+    position: relative !important;
+    width: 92.94px !important;
+  }
+  
+  .step-acronym .step-text-horizontal-2 {
+    color: var(--black) !important;
+    font-size: 37.8px !important;
+    left: 19px !important;
+    top: 12px !important;
+  }
+  
+  .step-acronym .rect {
+    background-color: var(--grey);
+    height: 6px;
+    position: relative;
+    width: 606px;
+  }
+  
+  .step-acronym .step-symbol-2 {
+    background-color: var(--variable-collection-pure-white) !important;
+    border: 5.81px solid !important;
+    border-color: var(--grey) !important;
+    border-radius: 46.47px !important;
+    height: 93px !important;
+    width: 93px !important;
+  }
+  
+  .step-acronym .step-symbol-3 {
+    color: var(--black) !important;
+    font-size: 37.8px !important;
+    left: 16px !important;
+    top: 12px !important;
+  }
+  
+  .step-acronym .step-symbol-4 {
+    height: 93px !important;
+    left: 1488px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 93px !important;
+  }
+  
+  .step-acronym .step-symbol-5 {
+    background-color: var(--variable-collection-pure-white) !important;
+    border: 5.81px solid !important;
+    border-color: var(--grey) !important;
+    border-radius: 46.47px !important;
+    height: 93px !important;
+  }
+  
+  .step-acronym .frame-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    left: 74px;
+    position: absolute;
+    top: 198px;
+  }
+  
+  .step-acronym .button-v-3 {
+    flex: 0 0 auto !important;
+  }
+  
+  .step-acronym .frame-9 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 28px;
+    height: 737px;
+    position: relative;
+  }
+  
+  .step-acronym .frame-10 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+  }
+  
+  .step-acronym .text-wrapper-5 {
+    color: var(--black);
+    font-family: "Playfair Display", Helvetica;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .step-acronym .text-wrapper-6 {
+    color: var(--grey);
+    font-family: "Inter", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .step-acronym .frame-11 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 598px;
+    position: relative;
+  }
+  
+  .step-acronym .frame-12 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 48px;
+    position: relative;
+  }
+  
+  .step-acronym .box-instance {
+    left: 77px !important;
+  }
+  
+  .step-acronym .box-2 {
+    left: 110px !important;
+  }
+  
+  .step-acronym .box-3 {
+    left: 102px !important;
+  }
+  
+  .step-acronym .box-4 {
+    left: 115px !important;
+  }
+  
