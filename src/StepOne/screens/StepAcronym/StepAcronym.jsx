@@ -6,6 +6,7 @@ import { Select } from "../../Select";
 import { StepSymbol } from "../../StepSymbol";
 import { StepTextHorizontal } from "../../StepTextHorizontal";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const StepAcronym = () => {
   return (
@@ -43,7 +44,9 @@ export const StepAcronym = () => {
                 </div>
               </div>
             </div>
-            <ButtonV className="button-v-1" text="Next" />
+            <Link to="/prompt" style={{ textDecoration: 'none' }}>
+              <ButtonV className="button-v-1" text="Next" />
+            </Link>            
           </div>
         </div>
         <div className="component">
@@ -81,12 +84,14 @@ export const StepAcronym = () => {
           </div>
         </div>
         <div className="frame-8">
-          <PropertyFrameWrapper
-            className="button-v-3"
-            property1="frame-1870"
-            text="Back to Homepage"
-            vuesaxLinearArrow="https://c.animaapp.com/tLweR9GB/img/vuesax-linear-arrow-left-1.svg"
-          />
+          <Link to="/">
+            <PropertyFrameWrapper
+              className="button-v-3"
+              property1="frame-1870"
+              text="Back to Homepage"
+              vuesaxLinearArrow="https://c.animaapp.com/tLweR9GB/img/vuesax-linear-arrow-left-1.svg"
+            />
+          </Link>          
           <div className="frame-9">
             <div className="frame-10">
               <div className="text-wrapper-5">Choose a Mnemonic Option</div>
