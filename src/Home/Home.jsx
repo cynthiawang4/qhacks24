@@ -37,6 +37,9 @@ function Home() {
           </div>
         </div>
       </div>
+      <Link to="/prompt">
+                <button className="button2">Test</button>
+              </Link>
     </div>
   )
 }

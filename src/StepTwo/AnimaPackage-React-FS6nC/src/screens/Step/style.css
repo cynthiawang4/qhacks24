@@ -1,0 +1,184 @@
+.step {
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.step .div {
+  background-color: #fcfcfc;
+  height: 1117px;
+  position: relative;
+  width: 1728px;
+}
+
+.step .component {
+  height: 163px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.step .overlap-group {
+  height: 163px;
+  position: relative;
+}
+
+.step .rectangle {
+  background-color: var(--white);
+  box-shadow: 0px 11px 5px #00000026;
+  height: 163px;
+  left: 0;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.step .frame {
+  align-items: center;
+  display: flex;
+  gap: 23px;
+  left: 74px;
+  position: absolute;
+  top: 35px;
+  width: 1581px;
+}
+
+.step .step-text-horizontal-instance {
+  flex: 0 0 auto !important;
+  gap: 29.04px !important;
+}
+
+.step .design-component-instance-node {
+  color: var(--black) !important;
+  font-size: 37.8px !important;
+  left: 19px !important;
+  top: 12px !important;
+}
+
+.step .design-component-instance-node-2 {
+  height: 92.94px !important;
+  position: relative !important;
+  width: 92.94px !important;
+}
+
+.step .design-component-instance-node-3 {
+  background-color: var(--variable-collection-pure-white) !important;
+  border: 5.81px solid !important;
+  border-color: var(--purple) !important;
+  border-radius: 46.47px !important;
+  height: 93px !important;
+  width: 93px !important;
+}
+
+.step .rect {
+  background-color: var(--purple);
+  height: 6px;
+  position: relative;
+  width: 606px;
+}
+
+.step .step-symbol-2 {
+  color: var(--black) !important;
+  font-size: 37.8px !important;
+  left: 16px !important;
+  top: 12px !important;
+}
+
+.step .rect-2 {
+  background-color: var(--grey);
+  height: 6px;
+  position: relative;
+  width: 606px;
+}
+
+.step .step-symbol-3 {
+  height: 93px !important;
+  left: 1488px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 93px !important;
+}
+
+.step .step-symbol-4 {
+  background-color: var(--variable-collection-pure-white) !important;
+  border: 5.81px solid !important;
+  border-color: var(--grey) !important;
+  border-radius: 46.47px !important;
+  height: 93px !important;
+}
+
+.step .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 36px;
+  left: 74px;
+  position: absolute;
+  top: 226px;
+}
+
+.step .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 80px;
+  position: relative;
+}
+
+.step .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.step .text-wrapper-2 {
+  color: var(--black);
+  font-family: "Playfair Display", Helvetica;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.step .p {
+  color: var(--grey);
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.step .rectangle-2 {
+  background-color: var(--white);
+  border-radius: 12px;
+  height: 494px;
+  position: relative;
+  width: 1576px;
+}
+
+.step .frame-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 870px;
+  position: relative;
+}
+
+.step .button-v-1 {
+  display: flex !important;
+  width: 353px !important;
+}
