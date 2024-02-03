@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../NavBar/NavBar";
+import NavBar from "./NavBar/NavBar";
 import "./Home.css";
 
 function Home() {
@@ -37,9 +37,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Link to="/prompt">
-                <button className="button2">Test</button>
-              </Link>
     </div>
   )
 }

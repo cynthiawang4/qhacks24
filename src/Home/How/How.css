@@ -1,0 +1,54 @@
+.homepage .container-table {
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 52px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.homepage .table-column {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 52px;
+    padding: 52px;
+    position: relative;
+}
+
+.homepage .table-header {
+    color: #131313;
+    font: 500 32px "Inter";
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.homepage .table-entries {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 64px;
+    position: relative;
+}
+
+.homepage .table-text {
+    color: #131313;
+    font: 400 32px "Inter";
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.homepage .purple-text {
+    color: #7267ba;
+}

@@ -9,9 +9,15 @@ function NavBar() {
         <div className="nav-rectangle" />
         <div className="nav-container">
           <div className="nav-text">
-            <div className="h3">Home</div>
-            <div className="h3">About</div>
-            <div className="h3">How It Works</div>
+            <Link to="/" style={{ textDecoration: 'none' }}>
+              <div className="h3">Home</div>
+            </Link>
+            <Link to="/about" style={{ textDecoration: 'none' }}>
+              <div className="h3">About</div>
+            </Link>
+            <Link to="/howitworks" style={{ textDecoration: 'none' }}>
+              <div className="h3">How It Works</div>
+            </Link>
           </div>
           <div className="nav-button">
             <Link to="/signup">

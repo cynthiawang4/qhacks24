@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Home/Home.css"
-import "../Login/Login.css"
-import "./SignUp.css";
+import "../Home.css"
+import "./Login.css";
 
-function SignUp() {
+function Login() {
     return (
         <div className="homepage">
             <div className="overlap-wrapper">
@@ -21,14 +20,12 @@ function SignUp() {
                             <div className="ellipse-7" />
                         </div>
                     </div>
-                    <div className="signup-container">
+                    <div className="login-container">
                         <div className="login-text">
                             <img className="logo" alt="logo" src="logo.png" />
                             <div className="h4">App name</div>
                         </div>
                         <form className="login-field">
-                            <label className="h5">Enter your name:</label>
-                            <input className="input-box" type="text" name="name"></input>
                             <label className="h5">Enter your email:</label>
                             <input className="input-box" type="email" name="email"></input>
                             <label className="h5">Enter your password:</label>
@@ -50,4 +47,4 @@ function SignUp() {
     )
 }
 
-export default SignUp;
+export default Login;
