@@ -46,7 +46,7 @@ export const StepAcronym = () => {
             </div>
             <Link to="/prompt" style={{ textDecoration: 'none' }}>
               <ButtonV className="button-v-1" text="Next" />
-            </Link>            
+            </Link>
           </div>
         </div>
         <div className="component">
