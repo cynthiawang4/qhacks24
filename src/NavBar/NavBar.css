@@ -1,0 +1,104 @@
+:root {
+  --text-colour: #96639c;
+  --link-colour: #78307d;
+  white-space: nowrap;
+}
+
+.navbar {
+  background: #e9deea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.homepage .nav-overlap {
+  height: 99px;
+  position: relative;
+}
+
+.homepage .nav-rectangle {
+  background-color: #f2f2f2;
+  box-shadow: 0px 11px 5px #00000026;
+  height: 99px;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.homepage .nav-container {
+  align-items: center;
+  display: inline-flex;
+  gap: 815px;
+  left: 170px;
+  position: absolute;
+  top: 21px;
+}
+
+.homepage .nav-text {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 90px;
+  position: relative;
+}
+
+.homepage .h3 {
+  color: #131313;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.homepage .h3:hover {
+  color: #42759a;
+  text-decoration: underline;
+}
+
+.homepage .nav-button {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  position: relative;
+}
+
+.homepage .button3 {
+  all: unset;
+  align-items: center;
+  background-color: #41759a;
+  border-radius: 100px;
+  color: #f2f2f2;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font: 400 24px "Inter";
+  gap: 10px;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  padding: 16px 36px;
+  position: relative;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.homepage .button3:hover {
+  background-color: #f2f2f2;
+  border: 2px solid;
+  border-color: #41759a;
+  color:#41759a;
+}
+
+.homepage .profile {
+  height: 34px;
+  position: relative;
+  width: 34px;
+}

@@ -1,0 +1,14 @@
+.homepage .signup-container {
+    align-items: center;
+    background-color: #fcfcfc;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 731px;
+    left: 616px;
+    overflow: hidden;
+    position: absolute;
+    top: 257px;
+    width: 496px;
+}

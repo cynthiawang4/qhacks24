@@ -1,0 +1,89 @@
+.homepage .login-container {
+    align-items: center;
+    background-color: #fcfcfc;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 612px;
+    left: 616px;
+    overflow: hidden;
+    position: absolute;
+    top: 257px;
+    width: 496px;
+}
+
+.homepage .login-text {
+    flex: 0 0 auto;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+}
+
+.homepage .logo {
+    height: 55px;
+    position: relative;
+    width: 55px;
+}
+
+.homepage .h4 {
+    color: #1f1f1f;
+    font: 700 24px "Playfair Display";
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.homepage .login-field {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    width: 446px;
+}
+
+.homepage .h5 {
+    align-self: stretch;
+    color: #1f1f1f;
+    font: 300 20px "Inter";
+    height: 15px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: -1px;
+    width: 100%;
+    white-space: no-wrap;
+}
+
+.homepage .input-box {
+    align-self: stretch;
+    background-color: #f2f2f2;
+    color: #1f1f1f;
+    font: 300 18px "Inter";
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding: 19px 36px;
+    position: relative;
+    width: 100%;
+}
+
+.homepage .login-button {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+
+  .homepage .homepage-button {
+    gap: 10px;
+    padding: 16px 24px;
+  }

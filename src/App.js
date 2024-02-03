@@ -1,28 +1,19 @@
-import { useState } from 'react';
-import './App.css';
-import { getResponse } from './chatgpt/ChatgptConfig';
+import React from "react";
+import Home from "./Home/Home";
+import Login from "./Login/Login";
+import SignUp from "./SignUp/SignUp";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// CURRENTLY ALL TEST FUNCTIONS
 function App() {
-
-  const [text, setText] = useState('Hi');
-
-  async function changeText() {
-    const cpytext = await getResponse();
-    setText(cpytext)
-  }
-
   return (
-    <div>
-      <header>
-        <p>
-          {text}
-        </p>
-      </header>
-      <button onClick={() => changeText()}>
-      What are the colors of the rainbow?
-      </button>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<SignUp/>} />
+      </Routes>
+    </Router>
   );
 }
 
