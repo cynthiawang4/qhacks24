@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../Logo.png";
 import "../Home.css"
 import "../Login/Login.css"
 import "./SignUp.css";
@@ -23,8 +24,8 @@ function SignUp() {
                     </div>
                     <div className="signup-container">
                         <div className="login-text">
-                            <img className="logo" alt="logo" src="logo.png" />
-                            <div className="h4">App name</div>
+                            <img className="logo" alt="logo" src={Logo} />
+                            <div className="h4">Memotrix</div>
                         </div>
                         <form className="login-field">
                             <label className="h5">Enter your name:</label>
