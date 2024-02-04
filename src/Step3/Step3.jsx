@@ -37,7 +37,7 @@ export const Step3 = () => {
 
     async function handleRefresh() {
         setDone(false);
-        const cpyAnswer = await getResponse("Try again", fullConvo, 15);
+        const cpyAnswer = await getResponse("Try again", fullConvo, location.state.maxLength);
         setFullConvo(cpyAnswer);
         setDone(true);
     }

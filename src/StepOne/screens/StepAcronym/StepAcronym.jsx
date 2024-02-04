@@ -40,7 +40,7 @@ export const StepAcronym = () => {
               <div className="frame-3">
                 <div className="frame-4">
                   <div className="text-wrapper-3">{"Max Text Length: " + maxLength} </div>
-                  <input type="range" id="points" name="points" min="1" max="75"
+                  <input type="range" id="points" name="points" min="1" max="150"
                    value={maxLength} onChange={(e) => setMaxLength(e.target.value)}></input>
                 </div>
                 <div className="frame-4">
