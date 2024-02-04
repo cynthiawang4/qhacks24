@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 export const Prompt = () => {
   const [prompt, setPrompt] = useState('');
+
   return (
     <div className="step">
       <div className="div">
@@ -61,10 +62,11 @@ export const Prompt = () => {
             </div>
           </div>
           <div className="frame-5">
-            <ButtonV className="button-v-1" text="Back" />
-            <Link to="/results">
-                <ButtonV className="button-v-1" text="Next" />
-            </Link>
+
+            <ButtonV className="button-v-1" text="Back" pathname = "/"/>
+            {prompt? <ButtonV className="button-v-1" text="Next" pathname= "/results" data={prompt}/>:
+            <></>}
+
           </div>
         </div>
       </div>

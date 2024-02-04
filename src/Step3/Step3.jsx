@@ -1,12 +1,50 @@
 import React from "react";
+import {useEffect, useState} from "react";
 import { ButtonV } from "./components/ButtonV";
-import { Question } from "./components/Question";
-import { Refresh } from "./components/Refresh";
 import { StepSymbol } from "./components/StepSymbol";
 import { StepTextHorizontal } from "./components/StepTextHorizontal";
 import "./styles.css";
+import {useLocation, useNavigate} from 'react-router-dom';
+import {getResponse} from "../chatgpt/OpenAiControls";
 
 export const Step3 = () => {
+
+    const location = useLocation();
+
+    const [fullConvo, setFullConvo] = useState([]);
+    const [done, setDone] = useState(true);
+
+    useEffect(() => {
+
+        let ignore = false;
+
+        async function checkDate() {
+            if (!ignore) {
+                setDone(false);
+                const cpyAnswer = await getResponse(location.state.prompt, fullConvo, 15);
+                setFullConvo(cpyAnswer);
+                setDone(true);
+            }
+          };
+        
+          checkDate()
+          return () => {
+            ignore = true;
+          }
+    }, [fullConvo, location.state.prompt])
+
+    async function handleRefresh() {
+        setDone(false);
+        const cpyAnswer = await getResponse("Try again", fullConvo, 15);
+        setFullConvo(cpyAnswer);
+        setDone(true);
+    }
+    
+    const navigate = useNavigate();
+    function handleBack() {
+        navigate("/prompt");
+    }
+
   return (
     <div className="index">
       <div className="div">
@@ -50,12 +88,11 @@ export const Step3 = () => {
               <div className="div-wrapper">
                 <div className="text-wrapper-2">Your phrase</div>
               </div>
-              <div className="ellipse-3" />
-              <Refresh className="refresh-2" />
+              <ButtonV className="refresh-2" text="Refresh" handleClick={() => handleRefresh()}/>
             </div>
-            <ButtonV className="button-v-1" text="Back" />
+            <ButtonV className="button-v-1" text="Back" handleClick={() => handleBack()}/>
           </div>
-          <p className="p">My Very Educated Mother Just Served Us Noodles My Very Educated Mother Just Served Us Noodles My Very Educated Mother Just Served Us Noodles My Very Educated Mother Just Served Us Noodles</p>
+          <p className="p">{fullConvo.length > 0 && done? fullConvo[fullConvo.length - 1].content: "Loading"}</p>
         </div>
       </div>
     </div>
