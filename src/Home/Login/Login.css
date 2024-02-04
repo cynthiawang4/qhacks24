@@ -5,12 +5,13 @@
     display: inline-flex;
     flex-direction: column;
     gap: 100px;
-    height: 612px;
+    height: 712px;
     left: 616px;
     overflow: hidden;
     position: absolute;
     top: 257px;
     width: 496px;
+    justify-content: center;
 }
 
 .homepage .login-text {
@@ -18,17 +19,18 @@
     gap: 15px;
     justify-content: center;
     position: relative;
+    top: 15px;
 }
 
 .homepage .logo {
-    height: 55px;
-    position: relative;
-    width: 55px;
+    height: 100px;
+    width: 140px;
 }
 
 .homepage .h4 {
     color: #1f1f1f;
     font: 700 24px "Playfair Display";
+    left: 15px;
     letter-spacing: 0;
     line-height: normal;
     position: relative;
