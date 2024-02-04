@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import LoginButton from "./LoginButton";
+import Mascot from "../Mascot.png";
 
 function NavBar() {
   return (
@@ -22,7 +23,9 @@ function NavBar() {
           </div>
           <div className="nav-button">
             <LoginButton className="button3" text="Sign Up" />
-            <img className="profile" alt="profile icon" src="user.png" />
+            <Link to="/profile" style={{ textDecoration: 'none' }}>
+              <img className="profile" alt="profile icon" src={Mascot} />
+            </Link>
           </div>
         </div>
       </div>
