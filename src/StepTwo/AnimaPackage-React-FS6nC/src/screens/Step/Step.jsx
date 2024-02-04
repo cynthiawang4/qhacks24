@@ -3,11 +3,14 @@ import { useState } from 'react';
 import { ButtonV } from "../../components/ButtonV";
 import { StepSymbol } from "../../components/StepSymbol";
 import { StepTextHorizontal } from "../../components/StepTextHorizontal";
+import { useLocation } from "react-router-dom"
 import "./style.css";
-import { Link } from "react-router-dom";
 
 export const Prompt = () => {
   const [prompt, setPrompt] = useState('');
+
+  const location = useLocation();
+  
 
   return (
     <div className="step">
@@ -59,11 +62,11 @@ export const Prompt = () => {
             </div>
           </div>
           <div className="frame-5">
-
-            <ButtonV className="button-v-1" text="Back" pathname = "/"/>
-            {prompt? <ButtonV className="button-v-1" text="Next" pathname= "/results" data={prompt}/>:
+            <ButtonV className="button-v-1" text="Back" pathname = "/choose"/>
+            {prompt? <ButtonV className="button-v-1" text="Next" pathname= "/results" 
+            prompt={prompt} maxLength={location.state.maxLength} 
+            choice={location.state.choice}/>:
             <></>}
-
           </div>
         </div>
       </div>

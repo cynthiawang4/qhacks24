@@ -8,12 +8,12 @@ import React from "react";
 import "./style.css";
 import { useNavigate } from "react-router-dom"
 
-export const ButtonV = ({ className, text = "Button", data , pathname}) => {
+export const ButtonV = ({ className, text = "Button", prompt , pathname, maxLength, choice}) => {
 
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate(pathname, {state:{prompt: data}})
+    navigate(pathname, {state:{prompt: prompt, choice: choice, maxLength: maxLength}})
   }
 
   return (
