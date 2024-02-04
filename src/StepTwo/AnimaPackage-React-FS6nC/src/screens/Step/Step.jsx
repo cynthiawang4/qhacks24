@@ -63,7 +63,7 @@ export const Prompt = () => {
           </div>
           <div className="frame-5">
             <ButtonV className="button-v-1" text="Back" pathname = "/choose"/>
-            {prompt? <ButtonV className="button-v-1" text="Next" pathname= "/results" 
+            {prompt && prompt.length < 4097? <ButtonV className="button-v-1" text="Next" pathname= "/results" 
             prompt={prompt} maxLength={location.state.maxLength} 
             choice={location.state.choice}/>:
             <></>}
