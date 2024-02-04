@@ -98,7 +98,14 @@
 }
 
 .homepage .profile {
-  height: 34px;
+  height: 55px;
   position: relative;
-  width: 34px;
+  width: 55px;
+}
+
+.homepage .profile:hover {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
 }
