@@ -27,7 +27,7 @@ function Home() {
               <div className="h2">Trix To Help You Memorize</div>
             </div>
             <div className="container-button">
-              <Link to="/signup">
+              <Link to="/choose">
                 <button className="button1">Get Started</button>
               </Link>
               <Link to="/login">
