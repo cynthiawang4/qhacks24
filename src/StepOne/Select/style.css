@@ -1,0 +1,12 @@
+.select {
+    border: 5px solid;
+    border-color: var(--light-blue);
+    border-radius: 10px;
+    height: 36px;
+    width: 36px;
+  }
+  
+  .select.rectangle-12 {
+    background-color: var(--light-blue);
+  }
+  

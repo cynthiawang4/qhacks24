@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Home/Home.css"
+import "../Home.css"
 import "../Login/Login.css"
 import "./SignUp.css";
 
@@ -35,7 +35,9 @@ function SignUp() {
                             <input className="input-box" type="text" name="password"></input>
                         </form>
                         <div className="login-button">
-                            <button className="button1">Sign In</button>
+                            <Link to="/choose">
+                                <button className="button1">Sign In</button>
+                            </Link>
                             <button className="button2">Sign Up</button>
                         </div>
                     </div>

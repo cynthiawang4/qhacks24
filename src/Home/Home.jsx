@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../NavBar/NavBar";
+import NavBar from "./NavBar/NavBar";
 import "./Home.css";
 
 function Home() {
@@ -23,8 +23,8 @@ function Home() {
           <NavBar/>
           <div className="container">
             <div className="container-text">
-              <div className="h1">App name</div>
-              <div className="h2">Slogan or smt</div>
+              <div className="h1">Memotrix</div>
+              <div className="h2">Trix To Help You Memorize</div>
             </div>
             <div className="container-button">
               <Link to="/signup">
@@ -37,9 +37,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Link to="/prompt">
-                <button className="button2">Test</button>
-              </Link>
     </div>
   )
 }

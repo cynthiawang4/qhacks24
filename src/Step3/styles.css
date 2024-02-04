@@ -69,7 +69,7 @@
     background-color: rgba(253, 253, 253, 1) !important;
     border: 5.81px solid !important;
     border-color: rgba(114, 103, 186, 1) !important;
-    border-radius: 46.47px !important;
+    border-radius: 50% !important;
     height: 93px !important;
     width: 93px !important;
   }
@@ -100,8 +100,9 @@
     background-color: rgba(253, 253, 253, 1) !important;
     border: 5.81px solid !important;
     border-color: rgba(114, 103, 186, 1) !important;
-    border-radius: 46.47px !important;
+    border-radius: 50% !important;
     height: 93px !important;
+    width: 93px !important;
   }
   
   .index .overlap-2 {
@@ -154,7 +155,7 @@
   
   .index .ellipse-3 {
     background-color: #7267ba;
-    border-radius: 30px;
+    border-radius: 50%;
     height: 60px;
     left: 1500px;
     position: absolute;
