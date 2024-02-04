@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+import LoginButton from "./LoginButton";
 
 function NavBar() {
   return (
@@ -20,9 +21,7 @@ function NavBar() {
             </Link>
           </div>
           <div className="nav-button">
-            <Link to="/signup">
-              <button className="button3">Sign Up</button>
-            </Link>            
+            <LoginButton className="button3" text="Sign Up" />
             <img className="profile" alt="profile icon" src="user.png" />
           </div>
         </div>

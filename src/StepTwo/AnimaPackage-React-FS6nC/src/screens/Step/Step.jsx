@@ -56,8 +56,9 @@ export const Prompt = () => {
               <p className="p">What do you want to memorize today?</p>
             </div>
             <div className="rectangle-2" >
-            <textarea onChange={(e) => setPrompt(e.target.value)} 
-              placeholder="Enter prompt here" rows="6">
+            <textarea
+              onChange={(e) => setPrompt(e.target.value)}
+              placeholder="Enter prompt here" rows="12" style={{ width: '100%', fontSize: '32px' }}>
             </textarea>
             </div>
           </div>
