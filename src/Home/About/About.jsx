@@ -2,6 +2,10 @@ import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "../Home.css";
 import "./About.css";
+import Savannah from "../Savannah.png";
+import Kristen from "../Kristen.png";
+import Amanda from "../Amanda.png";
+import Cynthia from "../Cynthia.png";
 
 function About() {
     return (
@@ -28,28 +32,28 @@ function About() {
                         </div>
                         <div className="container-person">
                             <div className="person">
-                                <div className="photo" />
+                                <img className="photo" src={Savannah}/>
                                 <div className="photo-text">
                                     <div className="about-h3">Savannah Han</div>
                                     <div className="about-h4">Design & Front-End</div>
                                 </div>
                             </div>
                             <div className="person">
-                                <div className="photo" />
+                                <img className="photo" src={Kristen}/>
                                 <div className="photo-text">
                                     <div className="about-h3">Kristen Lee</div>
                                     <div className="about-h4">AI & Back-End</div>
                                 </div>
                             </div>
                             <div className="person">
-                                <div className="photo" />
+                                <img className="photo" src={Amanda}/>
                                 <div className="photo-text">
                                     <div className="about-h3">Amanda Li</div>
                                     <div className="about-h4">Design & Front-End</div>
                                 </div>
                             </div>
                             <div className="person">
-                                <div className="photo" />
+                                <img className="photo" src={Cynthia}/>
                                 <div className="photo-text">
                                     <div className="about-h3">Cynthia Wang</div>
                                     <div className="about-h4">Back-End & Front-End</div>

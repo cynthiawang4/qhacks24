@@ -27,7 +27,7 @@ function How() {
                             <div className="about-h1">How It Works</div>
                             <div className="about-h2">Memotrix serves as an education and study helper tool that leverages ChatGPT to generate mnemonics. It focuses on creating memorable and effective mnemonics, such as acronyms or phrases, to aid users in remembering specific content from textbooks, articles, or other reading materials. The tool aims to simplify the process of memorization and enhance the overall studying experience for students. </div>
                             <div className="about-h2">Select the type of mnenomic device, enter a prompt, and see what Memotrix generates! </div>
-                            <button className="button2">View Github Repo</button>
+                            <a href="https://github.com/cynthiawang4/qhacks24" target="_blank"><button className="button2">View Github Repo</button></a>
                             <div></div>
                             <div className="about-h1">Common Mnemonics</div>
                             <div className="container-table">
@@ -54,7 +54,6 @@ function How() {
                                     </div>
                                 </div>
                             </div>
-                            <button className="button2">Explore More</button>
                         </div>
                     </div>
                 </div>

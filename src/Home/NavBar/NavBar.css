@@ -31,8 +31,8 @@
 .homepage .nav-container {
   align-items: center;
   display: inline-flex;
-  gap: 815px;
-  left: 170px;
+  gap: 750px;
+  left: 40px;
   position: absolute;
   top: 21px;
 }
@@ -52,7 +52,7 @@
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1px;
+  margin-top: 10px;
   position: relative;
   width: fit-content;
 }
@@ -108,4 +108,9 @@
   border-radius: 50%;
   height: 60px;
   width: 60px;
+}
+
+.homepage .nav-logo {
+  height: 56px;
+  width: 78px;
 }
