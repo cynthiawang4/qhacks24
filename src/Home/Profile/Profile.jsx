@@ -3,6 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import "../Home.css";
 import "../About/About.css";
 import "./Profile.css";
+import GoldMascot from "../GoldMascot.png";
 
 function About() {
     return (
@@ -23,7 +24,7 @@ function About() {
                     </div>
                     <NavBar/>
                     <div className="container-about">
-                        <div className="photo" />
+                        <img className="photo" src={GoldMascot}/>
                         <div className="about-h1">We Love Erin Meger</div>
                         <div className="container-person">
                             <button className="button3">Start New Chat</button>
