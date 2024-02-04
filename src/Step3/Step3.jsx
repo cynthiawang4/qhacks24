@@ -55,21 +55,7 @@ export const Step3 = () => {
             </div>
             <ButtonV className="button-v-1" text="Back" />
           </div>
-          <p className="p">My Very Educated Mother Just Served Us Noodles</p>
-        </div>
-        <div className="overlap-3">
-          <div className="text-wrapper-3">Untitled Acronym</div>
-          <div className="text-wrapper-4">Description</div>
-          <div className="rectangle-2" />
-          <div className="text-wrapper-5">Banned Words</div>
-          <div className="rectangle-3" />
-          <img
-            className="line"
-            alt="Line"
-            src="https://cdn.animaapp.com/projects/65be9c41879b64c245555138/releases/65be9cd3c46260c44d996ac3/img/line-30.svg"
-          />
-          <Question className="question-instance" />
-          <ButtonV className="button-v-instance" text="Save to Folder" />
+          <p className="p">My Very Educated Mother Just Served Us Noodles My Very Educated Mother Just Served Us Noodles My Very Educated Mother Just Served Us Noodles My Very Educated Mother Just Served Us Noodles</p>
         </div>
       </div>
     </div>

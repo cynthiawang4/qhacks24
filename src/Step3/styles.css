@@ -142,7 +142,7 @@
   
   .index .text-wrapper-2 {
     color: rgba(19, 19, 19, 1);
-    font-family: "Playfair Display", Helvetica;
+    font-family: "Playfair Display";
     font-size: 45px;
     font-weight: 600;
     letter-spacing: 0;
@@ -156,14 +156,14 @@
     background-color: #7267ba;
     border-radius: 30px;
     height: 60px;
-    left: 1038px;
+    left: 1500px;
     position: absolute;
     top: 736px;
     width: 60px;
   }
   
   .index .refresh-2 {
-    left: 1045px !important;
+    left: 1507px !important;
     position: absolute !important;
     top: 744px !important;
   }
@@ -176,7 +176,7 @@
   
   .index .p {
     color: rgba(19, 19, 19, 1);
-    font-family: "Inter", Helvetica;
+    font-family: "Inter";
     font-size: 28px;
     font-weight: 400;
     left: 64px;
@@ -184,6 +184,7 @@
     line-height: normal;
     position: absolute;
     top: 171px;
+    overflow-wrap: break-word;
   }
   
   .index .overlap-3 {
