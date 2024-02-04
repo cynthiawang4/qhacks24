@@ -155,18 +155,18 @@
   
   .index .ellipse-3 {
     background-color: #7267ba;
-    border-radius: 50%;
+    border-radius: 30px;
     height: 60px;
     left: 1500px;
     position: absolute;
     top: 736px;
     width: 60px;
   }
-  
+
   .index .refresh-2 {
-    left: 950px !important;
+    left: 1507px !important;
     position: absolute !important;
-    top: 720px !important;
+    top: 744px !important;
   }
   
   .index .button-v-1 {

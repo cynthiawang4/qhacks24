@@ -17,9 +17,9 @@ export const StepAcronym = () => {
 
   const samples  ={
     ACRONYM: "King Henry Drinks Chocolate Milk",
-    RHYME: "Red Bed Fred",
-    PHRASE: "Filler phrase",
-    STORY: "Great Story!"
+    RHYME: "Humpty Dumpty sat on a wall. Humpty Dumpty Had a great fall.",
+    PHRASE: "We don't make mistakes. Just happy little accidents.",
+    STORY: "...And they all lived happily after ever!"
   }
 
   function handleOptionClick(type) {
@@ -40,7 +40,8 @@ export const StepAcronym = () => {
               <div className="frame-3">
                 <div className="frame-4">
                   <div className="text-wrapper-3">{"Max Text Length: " + maxLength} </div>
-                  <input type="range" id="points" name="points" min="1" max="75" value={maxLength} onChange={(e) => setMaxLength(e.target.value)}></input>
+                  <input type="range" id="points" name="points" min="1" max="75"
+                   value={maxLength} onChange={(e) => setMaxLength(e.target.value)}></input>
                 </div>
                 <div className="frame-4">
                   <div className="text-wrapper-3">Sample:</div>
