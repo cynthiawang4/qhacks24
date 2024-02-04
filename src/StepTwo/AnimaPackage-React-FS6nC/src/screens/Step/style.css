@@ -140,8 +140,8 @@
 }
 
 .step .text-wrapper-2 {
-  color: var(--black);
-  font-family: "Playfair Display", Helvetica;
+  color: #131313;
+  font-family: "Playfair Display";
   font-size: 45px;
   font-weight: 600;
   letter-spacing: 0;
@@ -152,8 +152,8 @@
 }
 
 .step .p {
-  color: var(--grey);
-  font-family: "Inter", Helvetica;
+  color: #BEBEBE;
+  font-family: "Inter";
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 0;
