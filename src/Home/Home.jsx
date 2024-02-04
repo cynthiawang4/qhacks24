@@ -23,8 +23,8 @@ function Home() {
           <NavBar/>
           <div className="container">
             <div className="container-text">
-              <div className="h1">App name</div>
-              <div className="h2">Slogan or smt</div>
+              <div className="h1">Memotrix</div>
+              <div className="h2">Trix To Help You Memorize</div>
             </div>
             <div className="container-button">
               <Link to="/signup">
