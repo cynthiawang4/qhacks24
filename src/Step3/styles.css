@@ -110,7 +110,7 @@
     left: 74px;
     position: absolute;
     top: 226px;
-    width: 736px;
+    width: 1500px;
   }
   
   .index .frame-2 {
@@ -185,6 +185,7 @@
     line-height: normal;
     position: absolute;
     top: 171px;
+    text-wrap: wrap;
   }
   
   .index .overlap-3 {

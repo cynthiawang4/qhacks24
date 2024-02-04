@@ -7,10 +7,12 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const Box = ({ divClassName, text = "TEXT" }) => {
+export const Box = ({ divClassName, text = "TEXT", handleClick}) => {
   return (
     <div className="box">
-      <div className={`TEXT ${divClassName}`}>{text}</div>
+        <button className="box" onClick={handleClick}>
+          <span className={`TEXT ${divClassName}`}>{text}</span>
+      </button>
     </div>
   );
 };

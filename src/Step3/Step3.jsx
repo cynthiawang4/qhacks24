@@ -21,7 +21,9 @@ export const Step3 = () => {
         async function checkDate() {
             if (!ignore) {
                 setDone(false);
-                const cpyAnswer = await getResponse(location.state.prompt, fullConvo, 15);
+                const cpyprompt = "Create a " + location.state.choice + " about " + location.state.prompt;
+                console.log(cpyprompt);
+                const cpyAnswer = await getResponse(cpyprompt, fullConvo, location.state.maxLength);
                 setFullConvo(cpyAnswer);
                 setDone(true);
             }
@@ -31,7 +33,7 @@ export const Step3 = () => {
           return () => {
             ignore = true;
           }
-    }, [fullConvo, location.state.prompt])
+    }, [fullConvo, location.state.prompt, location.state.choice, location.state.maxLength])
 
     async function handleRefresh() {
         setDone(false);
@@ -42,7 +44,7 @@ export const Step3 = () => {
     
     const navigate = useNavigate();
     function handleBack() {
-        navigate("/prompt");
+        navigate("/prompt", {state:{choice: location.state.choice, maxLength: location.state.maxLength}});
     }
 
   return (

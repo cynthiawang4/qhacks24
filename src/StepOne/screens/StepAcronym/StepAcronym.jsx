@@ -1,52 +1,54 @@
 import React from "react";
+import { useState } from "react";
 import { Box } from "../../Box";
 import { ButtonV } from "../../ButtonV";
 import { PropertyFrameWrapper } from "../../PropertyFrameWrapper";
-import { Select } from "../../Select";
 import { StepSymbol } from "../../StepSymbol";
 import { StepTextHorizontal } from "../../StepTextHorizontal";
 import "./style.css";
-import { Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export const StepAcronym = () => {
+
+  const [choice, setChoice] = useState("ACRONYM")
+  const [maxLength, setMaxLength] = useState(15);
+
+  const navigate = useNavigate();
+
+  const samples  ={
+    ACRONYM: "King Henry Drinks Chocolate Milk",
+    RHYME: "Red Bed Fred",
+    PHRASE: "Filler phrase",
+    STORY: "Great Story!"
+  }
+
+  function handleOptionClick(type) {
+    setChoice(type);
+  }
+
+  function handleNext() {
+    navigate("/prompt", {state:{choice: choice, maxLength: maxLength}})
+  }
+
   return (
     <div className="step-acronym">
       <div className="div-2">
         <div className="overlap">
           <div className="frame">
             <div className="frame-2">
-              <div className="text-wrapper-2">Acronym</div>
+              <div className="text-wrapper-2">{choice}</div>
               <div className="frame-3">
                 <div className="frame-4">
-                  <div className="text-wrapper-3">Text Length</div>
-                  <div className="frame-5">
-                    <div className="group">
-                      <div className="control">
-                        <div className="bounds" />
-                        <div className="dragger" />
-                      </div>
-                    </div>
-                    <div className="text-wrapper-4">10 Words</div>
-                  </div>
-                </div>
-                <div className="frame-4">
-                  <div className="text-wrapper-3">Word Options</div>
-                  <div className="frame-4">
-                    <div className="frame-6">
-                      <Select className="select-instance" property1="rectangle-10" />
-                      <p className="p">Ensure Acronym is Relevant to Topic?</p>
-                    </div>
-                  </div>
+                  <div className="text-wrapper-3">{"Max Text Length: " + maxLength} </div>
+                  <input type="range" id="points" name="points" min="1" max="75" value={maxLength} onChange={(e) => setMaxLength(e.target.value)}></input>
                 </div>
                 <div className="frame-4">
                   <div className="text-wrapper-3">Sample:</div>
-                  <p className="p">King Henry Drinks Chocolate Milk</p>
+                  <p className="p">{samples[choice]}</p>
                 </div>
               </div>
-            </div>
-            <Link to="/prompt" style={{ textDecoration: 'none' }}>
-              <ButtonV className="button-v-1" text="Next" />
-            </Link>
+            </div>        
+              <ButtonV className="button-v-1" text="Next" handleClick={() => handleNext()}/>
           </div>
         </div>
         <div className="component">
@@ -99,12 +101,12 @@ export const StepAcronym = () => {
             </div>
             <div className="frame-11">
               <div className="frame-12">
-                <Box divClassName="box-instance" text="ACRONYM" />
-                <Box divClassName="box-2" text="RHYME" />
+                <Box divClassName="box-instance" text="ACRONYM" handleClick={() => handleOptionClick("ACRONYM")}/>
+                <Box divClassName="box-2" text="RHYME" handleClick={() => handleOptionClick("RHYME")}/>
               </div>
               <div className="frame-12">
-                <Box divClassName="box-3" text="PHRASE" />
-                <Box divClassName="box-4" text="STORY" />
+                <Box divClassName="box-3" text="PHRASE" handleClick={() => handleOptionClick("PHRASE")}/>
+                <Box divClassName="box-4" text="STORY" handleClick={() => handleOptionClick("STORY")}/>
               </div>
             </div>
           </div>
