@@ -10,7 +10,7 @@ root.render(
     domain="dev-rtv4bk7kv8meirb3.us.auth0.com"
     clientId="bcmwBC9iWYVeQJTkutFDtBhcA2Ovf0TH"
     authorizationParams={{
-      redirect_uri: "http://localhost:3000/"
+      redirect_uri: "http://localhost:3000/choose"
     }}
   >
     <App />
